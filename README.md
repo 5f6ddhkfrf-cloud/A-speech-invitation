@@ -1,1 +1,105 @@
 # A-speech-invitation
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دعوة خطوبة علي وحمده</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: linear-gradient(135deg, #111, #2c2c2c);
+      color: white;
+      text-align: center;
+    }
+    
+    .container {
+      padding: 40px 20px;
+    }
+    
+    h1 {
+      color: #d4af37;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    
+    .names {
+      font-size: 42px;
+      color: #fff;
+      margin: 30px 0;
+    }
+    
+    .heart {
+      color: #d4af37;
+    }
+    
+    .card {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .text {
+      font-size: 22px;
+      line-height: 2;
+    }
+    
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      background: #d4af37;
+      color: black;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    
+    footer {
+      margin-top: 40px;
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <div class="container">
+    
+    <h1>دعوة خطوبة</h1>
+    
+    <div class="card">
+      
+      <div class="names">
+        علي <span class="heart">♥</span> حمده
+      </div>
+      
+      <div class="text">
+        يسرنا دعوتكم لمشاركتنا فرحتنا<br>
+        بحضور حفل الخطوبة<br><br>
+        
+        نتشرف بحضوركم ومشاركتكم هذه المناسبة السعيدة
+      </div>
+      
+      <a class="btn" href="https://maps.app.goo.gl/c7q8Dbc9d7uo7XJh8?g_st=ic" target="_blank">
+        📍 موقع الحفل
+      </a>
+      
+    </div>
+    
+    <footer>
+      ننتظر حضوركم بكل سرور
+    </footer>
+    
+  </div>
+  
+</body>
+
+</html>
